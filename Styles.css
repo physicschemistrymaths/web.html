@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(90deg, whitesmoke, pink, white, rgb(204, 217, 242));
+    text-align: center;
+}
+
+.gradient-text {
+    font-size: 3rem; 
+    background: linear-gradient(90deg, #ff6b6b, purple, limegreen);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header {
+    padding: 5px;
+    text-align: left;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(90deg, purple,orange);
+}
+
+.top_nav {
+    overflow: hidden;
+    background-color: #111;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.top_nav a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.top_nav a:hover {
+    background-color: green;
+}
+
+.hero {
+    background: linear-gradient(90deg, #ff6b6b, #f7e74b);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    background-color: #111;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.features {
+    padding: 20px;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    max-width: 300px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.footer {
+    background-color: #111;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 0;
+}
